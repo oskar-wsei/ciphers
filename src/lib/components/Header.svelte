@@ -6,7 +6,7 @@
 <header>
   <ul>
     <li>
-      <Link class="nav-link p-3" to="/">Strona główna</Link>
+      <Link class="nav-link p-3" to="/ciphers">Strona główna</Link>
     </li>
     {#each ciphers as cipher}
       <li>

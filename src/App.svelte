@@ -7,7 +7,7 @@
 
 <Router>
   <Header />
-  <Route path="/" component={Home} />
+  <Route path="/ciphers" component={Home} />
   
   {#each ciphers as cipher}
     <Route path={`/ciphers/${cipher.key}`} component={cipher.component} />
